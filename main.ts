@@ -411,7 +411,7 @@ controller.down.onEvent(ControllerButtonEvent.Pressed, function () {
 })
 sprites.onOverlap(SpriteKind.Imposter, SpriteKind.Crewmate, function (sprite, otherSprite) {
     animation.runImageAnimation(
-    mySprite2,
+    otherSprite,
     [img`
         . . . . . . . . . . . . . . . . 
         . . . . . 8 8 8 8 . . . . . . . 
